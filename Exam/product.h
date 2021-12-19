@@ -16,8 +16,8 @@ namespace kitchen {
 		void SetPrice(const int& priceP) throw(MyException);
 
 		const string& GetName() const noexcept { return _name; }
-		const uint16_t& GetCalories() const noexcept { return _calories; }
-		const uint16_t& GetPrice() const noexcept { return _price; }
+		const uint16_t GetCalories() const noexcept { return _calories; }
+		const uint16_t GetPrice() const noexcept { return _price; }
 
 		friend class Stock;
 

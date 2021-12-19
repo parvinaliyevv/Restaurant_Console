@@ -16,7 +16,7 @@ namespace kitchen {
 		Provision(Product* productP, const int& quantityP) throw(MyException) : product(productP) { SetQuantity(quantityP); }
 
 		void SetQuantity(const int& quantityP) throw(MyException);
-		const uint16_t& GetQuantity() const noexcept { return _quantity; }
+		const uint16_t GetQuantity() const noexcept { return _quantity; }
 
 		void Increase(const int& quantityP) throw(MyException);
 		void Decrease(const int& quantityP) throw(MyException);

@@ -27,8 +27,8 @@ namespace food {
 		void DecreaseIngredient(const Provision productP, const int& quantityP) throw(MyException);
 
 		const string& GetName() const noexcept { return _name; }
-		const uint32_t& GetPrice() const noexcept { return _price; }
-		const uint16_t& GetDishCategory() const noexcept { return _dishCategory; }
+		const uint32_t GetPrice() const noexcept { return _price; }
+		const uint16_t GetDishCategory() const noexcept { return _dishCategory; }
 		const vector<shared_ptr<Provision>>& GetIngredients() const noexcept { return _ingredients; }
 
 		const Provision& GetIngredient(const int& indexP) const;
