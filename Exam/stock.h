@@ -22,10 +22,10 @@ namespace kitchen {
 		Stock& operator=(const Stock& other) = delete;
 
 		void AddProduct(const string& nameP, const int& caloriesP, const int& priceP, const int& amountP) throw(MyException);
-		void DelProduct(const int& index) throw(MyException);
+		void DelProduct(const int& indexP) throw(MyException);
 
 		shared_ptr<Provision> GetProvision(const string& nameP) const noexcept;
-		shared_ptr<Provision> GetProvision(const int& index) const noexcept;
+		shared_ptr<Provision> GetProvision(const int& indexP) const noexcept;
 
 		bool SaveStock() const noexcept;
 		bool LoadStock() noexcept;

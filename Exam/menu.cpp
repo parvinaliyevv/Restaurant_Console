@@ -1,5 +1,11 @@
 #include "menu.h"
 
+void Menu::PrintMenu() noexcept {
+	std::cout << "[1] - Login to the program as an administrator" << endl;
+	std::cout << "[2] - Login to the program as an guest" << endl;
+	std::cout << "[0] - Exit program\n" << endl;
+}
+
 void Menu::PrintGuestMenu() noexcept {
 	std::cout << "[1] - Create a new order" << endl;
 	std::cout << "[2] - Delete order from stock" << endl;
@@ -23,10 +29,4 @@ void Menu::PrintAdminMenu() noexcept {
 	std::cout << "[8] - Show Restaurant Menu" << endl;
 	std::cout << "[9] - Show Restaurant Statistics" << endl;
 	std::cout << "[0] - Main Menu\n" << endl;
-}
-
-void Menu::PrintMenu() noexcept {
-	std::cout << "[1] - Login to the program as an administrator" << endl;
-	std::cout << "[2] - Login to the program as an guest" << endl;
-	std::cout << "[0] - Exit program\n" << endl;
 }

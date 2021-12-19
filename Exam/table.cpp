@@ -17,9 +17,8 @@ void Table::PrintTableHeader() {
 
 	cout << setfill(' ') << '[' << setw(_lengthID) << "NO" << ']' << SEPARATOR;
 
-	for (int i = 0; i < _category.size(); i++) {
+	for (int i = 0; i < _category.size(); i++)
 		cout << setw(_paddings[i]) << _category[i] << SEPARATOR;
-	}
 
 	cout << endl << setfill('-') << setw(_lengthID + _lengthLine) << '-' << endl;
 	cout << left << setfill(' ');

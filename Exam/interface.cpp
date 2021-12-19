@@ -11,11 +11,11 @@ namespace food {
 		this->_name = nameP;
 	}
 	void Interface::SetPrice(const int& priceP) {
-		if (priceP <= NULL || priceP > INT_MAX / 2) throw ArgumentException("The price of a dish cannot be negative or equal to null or fantasy!");
+		if (priceP < NULL || priceP > INT_MAX / 2) throw ArgumentException("The price of a dish cannot be negative or fantasy!");
 		this->_price = priceP;
 	}
 
-	void Interface::IncreaseIngredient(Provision productP, const short& quantityP) noexcept {
+	void Interface::IncreaseIngredient(Provision productP, const int& quantityP) {
 		for (auto n = _ingredients.begin(); n != _ingredients.end(); n++) {
 			if ((*n)->product->GetName()._Equal(productP.product->GetName())) {
 				(*n)->Increase(quantityP);
@@ -26,7 +26,7 @@ namespace food {
 		productP.SetQuantity(quantityP);
 		_ingredients.push_back(shared_ptr<Provision> { new Provision(productP) });
 	}
-	void Interface::DecreaseIngredient(Provision productP, const short& quantityP) {
+	void Interface::DecreaseIngredient(Provision productP, const int& quantityP) {
 		for (auto n = _ingredients.begin(); n != _ingredients.end(); n++) {
 			if ((*n)->product->GetName()._Equal(productP.product->GetName())) {
 				(*n)->Decrease(quantityP);
@@ -39,21 +39,21 @@ namespace food {
 		throw DatabaseException("Ingredient with this index is not in dish!");
 	}
 
-	const uint32_t Interface::GetIngredientsCalories() const noexcept {
-		int result = NULL;
+	size_t Interface::GetIngredientsCalories() const noexcept {
+		size_t result = NULL;
 
 		for (auto n = _ingredients.begin(); n != _ingredients.end(); n++)
 			result += (*n)->product->GetCalories() * (*n)->GetQuantity();
 
 		return result;
 	}
-	const Provision& Interface::GetIngredient(const int& index) const {
+	const Provision& Interface::GetIngredient(const int& indexP) const {
 		size_t indexor = 1;
 
-		if (index > NULL && index <= _ingredients.size())
-			for (auto n : _ingredients) if (indexor++ == index) return (*n.get());
+		if (indexP > NULL && indexP <= _ingredients.size())
+			for (auto n : _ingredients) if (indexor++ == indexP) return (*n);
 
-		throw DatabaseException("Ingredient with this index is out of stock!");
+		throw DatabaseException("Ingredient with this index is out of in dish!");
 	}
 
 	void Interface::ShowIngredients() const noexcept {
@@ -73,22 +73,20 @@ namespace food {
 			replace_if(name.begin(), name.end(), ReplaceStringSymbol(' '), '_');
 
 			file << setw(30) << name
-				<< setw(5) << _dishCategory
-				<< setw(10) << _price
-				<< setw(5) << _ingredients.size();
+				 << setw(5) << _dishCategory
+				 << setw(10) << _price
+				 << setw(5) << _ingredients.size();
 
-			for (auto n : _ingredients) {
-				string ingredient = n->product->GetName();
+			for (auto n = _ingredients.begin(); n != _ingredients.end(); n++) {
+				string ingredient = (*n)->product->GetName();
 				replace_if(ingredient.begin(), ingredient.end(), ReplaceStringSymbol(' '), '_');
 
 				file << setw(30) << ingredient
-					<< setw(10) << n->product->GetCalories()
-					<< setw(10) << n->GetQuantity();
-
+					 << setw(10) << (*n)->product->GetCalories()
+					 << setw(10) << (*n)->GetQuantity();
 			}
 
 			file << endl;
-
 		}
 		else return false;
 
@@ -100,7 +98,7 @@ namespace food {
 		cout << "Name: " << _name << endl;
 		cout << "Price: " << _price << endl;
 		cout << "Total calories: " << GetIngredientsCalories() << endl;
-		cout << "Ingredients: " << endl;
+		cout << "Ingredients:\n" << endl;
 
 		ShowIngredients();
 	}
@@ -113,14 +111,17 @@ namespace food {
 			cout << "Enter ingredient index or NULL for continue: ";
 			cin >> index;
 
+			cin.ignore();
+
 			if (index == NULL) break;
 
 			cout << "Enter the amount of ingredients or NULL for continue: ";
 			cin >> amount;
 
+			cin.ignore();
+
 			if (amount == NULL) break;
 
-			cin.ignore();
 			system("cls");
 
 			auto product = stock->GetProvision(index);

@@ -16,7 +16,7 @@ namespace kitchen {
 		this->_calories = caloriesP;
 	}
 	void Product::SetPrice(const int& priceP) {
-		if (priceP <= NULL || priceP > USHRT_MAX) throw ArgumentException("The price of a product cannot be negative or equal to null or fantasy!");
+		if (priceP <= NULL || priceP > USHRT_MAX) throw ArgumentException("The price of a product cannot be negative, equal to null or fantasy!");
 		this->_price = priceP;
 	}
 }

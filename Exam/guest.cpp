@@ -1,17 +1,17 @@
 #include "Guest.h"
 
 void Guest::SetName(const string& fullnameP) {
-	if (fullnameP.size() < 3) throw ArgumentException("The name cannot be shorter than 3 characters!");
+	if (fullnameP.size() < 3) throw ArgumentException("The fullname cannot be shorter than 3 characters!");
 	this->_fullname = fullnameP;
 }
 
 shared_ptr<Dish> Guest::GetOrder(const int& index) const noexcept {
-	uint32_t indexsor = 1;
+	size_t indexor = 1;
 
-	for (auto n : _basket)
-		if (indexsor++ == index) return n;
+	for (auto n = _basket.begin(); n != _basket.end(); n++)
+		if (indexor++ == index) return (*n);
 
-	return shared_ptr<Dish>(nullptr);
+	return nullptr;
 }
 
 void Guest::NewOrder(Restaurant& restaurant) {
@@ -30,9 +30,10 @@ void Guest::NewOrder(Restaurant& restaurant) {
 	cin >> amount;
 
 	cin.ignore();
-	system("cls");
 
 	if (amount == NULL) return;
+
+	system("cls");
 
 	for (auto n : _basket) {
 		if (restaurant.GetDish(index)->GetName()._Equal(n->dish->GetName())) {
@@ -58,7 +59,7 @@ void Guest::NewOrder(Restaurant& restaurant) {
 void Guest::DelOrder(Restaurant& restaurant) {
 	if (_basket.empty()) throw DatabaseException("You haven't ordered anything yet!");
 
-	int indexsor = 1, index;
+	int indexor = 1, index;
 
 	ShowBasket(restaurant);
 
@@ -66,12 +67,13 @@ void Guest::DelOrder(Restaurant& restaurant) {
 	cin >> index;
 
 	cin.ignore();
-	system("cls");
 
 	if (index == NULL) return;
 
+	system("cls");
+
 	for (auto n = _basket.begin(); n != _basket.end(); n++) {
-		if (indexsor++ == index) {
+		if (indexor++ == index) {
 			_basket.erase(n);
 			return;
 		}
@@ -91,9 +93,10 @@ void Guest::AddIngredientOnDish(Restaurant& restaurant) {
 	cin >> index;
 
 	cin.ignore();
-	system("cls");
 
 	if (index == NULL) return;
+
+	system("cls");
 
 	auto order = GetOrder(index);
 	if (!order) throw DatabaseException("Order with this index was not found!");
@@ -106,27 +109,30 @@ void Guest::AddIngredientOnDish(Restaurant& restaurant) {
 		cout << "Enter ingredient index or NULL for break: ";
 		cin >> index;
 
+		cin.ignore();
+
 		if (index == NULL) break;
 
 		cout << "Enter the amount of ingredients or NULL for break: ";
 		cin >> amount;
 
+		cin.ignore();
+		
 		if (amount == NULL) break;
 
-		cin.ignore();
 		system("cls");
 
 		auto ingredient = restaurant._stock->GetProvision(index);
 
 		if (ingredient) {
 			if (amount > ingredient->GetQuantity()) throw DatabaseException("There are not enough ingredients in the stock!");
+
 			order->dish->IncreaseIngredient(*ingredient, amount);
+			order->dish->SetPrice(order->dish->GetPrice() + amount * ingredient->product->GetPrice());
 			ingredient->Decrease(amount);
 		}
 		else throw DatabaseException("Ingredient with this index is out of stock!");
 	}
-
-	cin.ignore();
 }
 void Guest::DelIngredientOnDish(Restaurant& restaurant) {
 	if (_basket.empty()) throw DatabaseException("You haven't ordered anything yet!");
@@ -139,9 +145,10 @@ void Guest::DelIngredientOnDish(Restaurant& restaurant) {
 	cin >> index;
 
 	cin.ignore();
-	system("cls");
 
 	if (index == NULL) return;
+
+	system("cls");
 
 	auto order = GetOrder(index);
 	if (!order) throw DatabaseException("Order with this index was not found!");
@@ -154,14 +161,17 @@ void Guest::DelIngredientOnDish(Restaurant& restaurant) {
 		cout << "Enter ingredient index or NULL for break: ";
 		cin >> index;
 
+		cin.ignore();
+
 		if (index == NULL) break;
 
 		cout << "Enter the amount of ingredients or NULL for break: ";
 		cin >> amount;
 
+		cin.ignore();
+
 		if (amount == NULL) break;
 
-		cin.ignore();
 		system("cls");
 
 		auto ingredient = restaurant._stock->GetProvision(order->dish->GetIngredient(index).product->GetName());
@@ -172,8 +182,6 @@ void Guest::DelIngredientOnDish(Restaurant& restaurant) {
 		}
 		else throw DatabaseException("Product with this index is out of stock!");
 	}
-
-	cin.ignore();
 }
 
 void Guest::ShowHistory(Restaurant& restaurant) {
@@ -206,9 +214,10 @@ void Guest::InfoDish(Restaurant& restaurant) {
 	cin >> index;
 
 	cin.ignore();
-	system("cls");
 
 	if (index == NULL) return;
+
+	system("cls");
 
 	auto order = GetOrder(index);
 	if (!order) throw DatabaseException("Order with this index was not found!");
@@ -235,7 +244,6 @@ bool Guest::SaveHistory(shared_ptr<Dish> data) const {
 		auto temp = time(NULL);
 		char* buffer = new char[50];
 		ctime_s(buffer, 50, &temp);
-
 		date = buffer;
 
 		replace_if(fullnameClient.begin(), fullnameClient.end(), ReplaceStringSymbol(' '), '_');
@@ -243,13 +251,15 @@ bool Guest::SaveHistory(shared_ptr<Dish> data) const {
 		replace_if(date.begin(), date.end(), ReplaceStringSymbol(' '), '_');
 
 		file << setw(30) << fullnameClient
-			<< setw(30) << nameDish
-			<< setw(10) << data->dish->GetPrice()
-			<< setw(10) << data->GetAmount()
-			<< setw(25) << date;
+			 << setw(30) << nameDish
+			 << setw(10) << data->dish->GetPrice()
+			 << setw(10) << data->GetAmount()
+			 << setw(25) << date;
 
 	}
 	else return false;
+
+	file.close();
 
 	return true;
 }
@@ -282,4 +292,3 @@ vector<shared_ptr<Guest::ClientHistory>> Guest::LoadHistory() const {
 
 	return history;
 }
-

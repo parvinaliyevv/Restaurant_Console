@@ -9,9 +9,10 @@ void Admin::NewDish(Restaurant& restaurant) {
 	cin >> index;
 
 	cin.ignore();
-	system("cls");
 
 	if (index == NULL) return;
+
+	system("cls");
 
 	restaurant.AddDish(index);
 }
@@ -24,9 +25,10 @@ void Admin::DelDish(Restaurant& restaurant) {
 	cin >> index;
 
 	cin.ignore();
-	system("cls");
 
 	if (index == NULL) return;
+	
+	system("cls");
 
 	restaurant.DelDish(index);
 }
@@ -63,16 +65,17 @@ void Admin::NewProduct(Restaurant& restaurant) {
 	cin >> amount;
 
 	cin.ignore();
-	system("cls");
 
 	if (amount == NULL) return;
 
+	system("cls");
+
 	int&& money = amount * price;
 
-	if (restaurant.GetMoney() < amount * price) throw DatabaseException("Not enough money in the restaurant!");
+	if (restaurant.GetMoney() < money) throw DatabaseException("Not enough money in the restaurant!");
 
 	restaurant._stock->AddProduct(name, price, ccal, amount);
-	restaurant.DecreaseMoney(amount * price);
+	restaurant.DecreaseMoney(money);
 }
 void Admin::DelProduct(Restaurant& restaurant) {
 	int index;
@@ -83,9 +86,10 @@ void Admin::DelProduct(Restaurant& restaurant) {
 	cin >> index;
 
 	cin.ignore();
-	system("cls");
 
 	if (index == NULL) return;
+
+	system("cls");
 
 	restaurant._stock->DelProduct(index);
 }
@@ -99,10 +103,11 @@ void Admin::IncreaseProduct(Restaurant& restaurant) {
 	cin >> index;
 
 	cin.ignore();
-	system("cls");
 
 	if (index == NULL) return;
 
+	system("cls");
+	
 	auto provision = restaurant._stock->GetProvision(index);
 
 	if (provision) {
@@ -135,9 +140,10 @@ void Admin::DecreaseProduct(Restaurant& restaurant) {
 	cin >> index;
 
 	cin.ignore();
-	system("cls");
 
 	if (index == NULL) return;
+
+	system("cls");
 
 	auto provision = restaurant._stock->GetProvision(index);
 
@@ -158,7 +164,7 @@ void Admin::ShowStatistics(Restaurant& restaurant) noexcept {
 	auto statistics = restaurant.LoadStatistics();
 	short length = to_string(statistics.size() + 10).size();
 
-	cout << "The restaurant currently has " << restaurant.GetMoney() << '$' << endl;
+	cout << "The restaurant currently has " << restaurant.GetMoney() << '$' << endl << endl;
 
 	system("pause");
 	system("cls");

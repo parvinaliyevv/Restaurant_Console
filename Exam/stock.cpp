@@ -11,11 +11,11 @@ namespace kitchen {
 
 		_provisions.insert(shared_ptr<Provision> { new Provision(new Product(nameP, caloriesP, priceP), amountP) });
 	}
-	void Stock::DelProduct(const int& index) {
-		uint32_t indexor = 1;
+	void Stock::DelProduct(const int& indexP) {
+		size_t indexor = 1;
 
 		for (auto n = _provisions.begin(); n != _provisions.end(); n++) {
-			if (indexor++ == index) {
+			if (indexor++ == indexP) {
 				_provisions.erase(n);
 				return;
 			}
@@ -25,17 +25,17 @@ namespace kitchen {
 	}
 
 	shared_ptr<Provision> Stock::GetProvision(const string& nameP) const noexcept {
-		for (auto n : _provisions)
-			if (n->product->_name._Equal(nameP)) return n;
+		for (auto n = _provisions.begin(); n != _provisions.end(); n++)
+			if ((*n)->product->_name._Equal(nameP)) return *n;
 
 		return nullptr;
 	}
-	shared_ptr<Provision> Stock::GetProvision(const int& index) const noexcept {
+	shared_ptr<Provision> Stock::GetProvision(const int& indexP) const noexcept {
 		size_t indexor = 1;
 
-		if (index > NULL && index <= _provisions.size()) {
-			for (auto n : _provisions)
-				if (indexor++ == index) return n;
+		if (indexP > NULL && indexP <= _provisions.size()) {
+			for (auto n = _provisions.begin(); n != _provisions.end(); n++)
+				if (indexor++ == indexP) return (*n);
 		}
 
 		return nullptr;
@@ -47,15 +47,19 @@ namespace kitchen {
 		file.setf(std::ios_base::left);
 
 		if (file.is_open()) {
-			for (auto n : _provisions) {
+			string name;
 
-				string name = n->product->_name;
+			for (auto n = _provisions.begin(); n != _provisions.end(); n++) {
+
+				name = (*n)->product->_name;
 				replace_if(name.begin(), name.end(), ReplaceStringSymbol(' '), '_');
 
 				file << setw(30) << name
-					<< setw(10) << n->product->_calories
-					<< setw(10) << n->product->_price
-					<< setw(10) << n->_quantity << '\n';
+					 << setw(10) << (*n)->product->_calories
+					 << setw(10) << (*n)->product->_price
+					 << setw(10) << (*n)->_quantity << endl;
+
+				name.clear();
 			}
 		}
 		else return false;
@@ -69,16 +73,16 @@ namespace kitchen {
 
 		if (file.is_open()) {
 			string name;
-			int calories, price, amount;
+			int calories, price, quantity;
 
 			while (!file.eof()) {
 
-				file >> name >> calories >> price >> amount;
+				file >> name >> calories >> price >> quantity;
 
 				if (name._Equal("")) break;
 				else {
 					replace_if(name.begin(), name.end(), ReplaceStringSymbol('_'), ' ');
-					AddProduct(name, calories, price, amount);
+					AddProduct(name, calories, price, quantity);
 				}
 
 				name.clear();
