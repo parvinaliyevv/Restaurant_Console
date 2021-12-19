@@ -118,8 +118,8 @@ void Guest::AddIngredientOnDish(Restaurant& restaurant) {
 
 		auto ingredient = restaurant._stock->GetProvision(index);
 
-		if (amount > ingredient->GetQuantity()) throw DatabaseException("There are not enough ingredients in the stock!");
-		else if (ingredient) {
+		if (ingredient) {
+			if (amount > ingredient->GetQuantity()) throw DatabaseException("There are not enough ingredients in the stock!");
 			order->dish->IncreaseIngredient(*ingredient, amount);
 			ingredient->Decrease(amount);
 		}
