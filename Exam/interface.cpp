@@ -47,11 +47,13 @@ namespace food {
 
 		return result;
 	}
-	const Provision& Interface::GetIngredient(const int& index) const noexcept {
+	const Provision& Interface::GetIngredient(const int& index) const {
 		size_t indexor = 1;
 
 		if (index > NULL && index <= _ingredients.size())
 			for (auto n : _ingredients) if (indexor++ == index) return (*n.get());
+
+		throw DatabaseException("Ingredient with this index is out of stock!");
 	}
 
 	void Interface::ShowIngredients() const noexcept {
