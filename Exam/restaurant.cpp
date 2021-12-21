@@ -50,32 +50,6 @@ bool Restaurant::CheckDish(shared_ptr<Interface> dish) const noexcept {
 
 	return true;
 }
-Interface* Restaurant::CopyDish(const int& indexP) {
-	shared_ptr<Interface> dish = GetDish(indexP);
-	Interface* copy = nullptr;
-
-	if (!dish) throw DatabaseException("Dish with this index is out of stock!");
-
-	if (dish->GetDishCategory() == 1) {
-		Pizza* derived = dynamic_cast<Pizza*>(&(*dish));
-		copy = new Pizza(*derived);
-	}
-	else if (dish->GetDishCategory() == 2) {
-		Kebab* derived = dynamic_cast<Kebab*>(&(*dish));
-		copy = new Kebab(*derived);
-	}
-	else if (dish->GetDishCategory() == 3) {
-		Khangal* derived = dynamic_cast<Khangal*>(&(*dish));
-		copy = new Khangal(*derived);
-	}
-	else if (dish->GetDishCategory() == 4) {
-		Dolma* derived = dynamic_cast<Dolma*>(&(*dish));
-		copy = new Dolma(*derived);
-	}
-	else throw ArgumentException("Wrong Meal ID!");
-
-	return copy;
-}
 
 shared_ptr<Interface> Restaurant::GetDish(const int& indexP) const noexcept {
 	size_t indexor = 1;
@@ -160,6 +134,7 @@ void Restaurant::AddDish(const int& mealID) {
 	default:
 		throw ArgumentException("Wrong Meal index!");
 	}
+
 
 	dish->PrepareIngredients(_stock);
 	_dishs.push_back(shared_ptr<Interface>(dish));

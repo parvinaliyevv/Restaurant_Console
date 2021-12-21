@@ -46,7 +46,9 @@ void Guest::NewOrder(Restaurant& restaurant) {
 		}
 	}
 
-	auto copy = restaurant.CopyDish(index);
+	shared_ptr<Interface> temp = restaurant.GetDish(amount);
+
+	auto copy = temp->GetCopy();
 	auto dish = shared_ptr<Dish>{ new Dish(copy, amount) };
 
 	for (auto n : dish->dish->GetIngredients()) {

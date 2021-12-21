@@ -37,6 +37,7 @@ namespace food {
 		void ShowIngredients() const noexcept;
 
 		virtual void PrepareIngredients(const unique_ptr<Stock>& stock) throw(MyException);
+		virtual Interface* GetCopy() const noexcept = 0 {}
 		virtual bool SaveDish() const noexcept;
 		virtual void Info() const noexcept;
 		virtual void Cook() const noexcept;

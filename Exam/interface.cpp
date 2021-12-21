@@ -63,6 +63,34 @@ namespace food {
 		table.PrintTable(_ingredients);
 	}
 
+	void Interface::PrepareIngredients(const unique_ptr<Stock>& stock) {
+		while (!cin.fail()) {
+			int index, amount;
+
+			stock->ShowStock();
+
+			cout << "Enter ingredient index or NULL for continue: ";
+			cin >> index;
+
+			cin.ignore();
+
+			if (index == NULL) break;
+
+			cout << "Enter the amount of ingredients or NULL for continue: ";
+			cin >> amount;
+
+			cin.ignore();
+
+			if (amount == NULL) break;
+
+			system("cls");
+
+			auto product = stock->GetProvision(index);
+
+			if (product) IncreaseIngredient(*product, amount);
+			else throw DatabaseException("Ingredient with this index is out of stock!");
+		}
+	}
 	bool Interface::SaveDish() const noexcept {
 		ofstream file("dishs.txt", ios_base::app);
 
@@ -101,34 +129,6 @@ namespace food {
 		cout << "Ingredients:\n" << endl;
 
 		ShowIngredients();
-	}
-	void Interface::PrepareIngredients(const unique_ptr<Stock>& stock) {
-		while (!cin.fail()) {
-			int index, amount;
-
-			stock->ShowStock();
-
-			cout << "Enter ingredient index or NULL for continue: ";
-			cin >> index;
-
-			cin.ignore();
-
-			if (index == NULL) break;
-
-			cout << "Enter the amount of ingredients or NULL for continue: ";
-			cin >> amount;
-
-			cin.ignore();
-
-			if (amount == NULL) break;
-
-			system("cls");
-
-			auto product = stock->GetProvision(index);
-
-			if (product) IncreaseIngredient(*product, amount);
-			else throw DatabaseException("Ingredient with this index is out of stock!");
-		}
 	}
 	void Interface::Cook() const noexcept {
 		cout << "Took an order called " << _name << endl;
