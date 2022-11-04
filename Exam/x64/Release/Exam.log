@@ -1,289 +1,289 @@
 ﻿  admin.cpp
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(55,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(59,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(60,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(63,58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(68,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(69,129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(70,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(18,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(19,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(21,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(22,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(24,64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(25,64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.cpp(3,45): warning C5043: 'Admin::NewDish': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(18): message : see declaration of 'Admin::NewDish'
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.cpp(19,45): warning C5043: 'Admin::DelDish': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(19): message : see declaration of 'Admin::DelDish'
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.cpp(36,48): warning C5043: 'Admin::NewProduct': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(21): message : see declaration of 'Admin::NewProduct'
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.cpp(80,48): warning C5043: 'Admin::DelProduct': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(22): message : see declaration of 'Admin::DelProduct'
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.cpp(97,53): warning C5043: 'Admin::IncreaseProduct': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(24): message : see declaration of 'Admin::IncreaseProduct'
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.cpp(134,53): warning C5043: 'Admin::DecreaseProduct': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Admin.h(25): message : see declaration of 'Admin::DecreaseProduct'
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.cpp(165,57): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(55,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(59,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(60,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(63,58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(68,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(69,129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(70,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(18,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(19,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(21,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(22,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(24,64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(25,64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.cpp(3,45): warning C5043: 'Admin::NewDish': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(18): message : see declaration of 'Admin::NewDish'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.cpp(19,45): warning C5043: 'Admin::DelDish': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(19): message : see declaration of 'Admin::DelDish'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.cpp(36,48): warning C5043: 'Admin::NewProduct': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(21): message : see declaration of 'Admin::NewProduct'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.cpp(80,48): warning C5043: 'Admin::DelProduct': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(22): message : see declaration of 'Admin::DelProduct'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.cpp(97,53): warning C5043: 'Admin::IncreaseProduct': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(24): message : see declaration of 'Admin::IncreaseProduct'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.cpp(134,53): warning C5043: 'Admin::DecreaseProduct': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Admin.h(25): message : see declaration of 'Admin::DecreaseProduct'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.cpp(165,57): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
   dish.cpp
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.cpp(4,45): warning C5043: 'food::Dish::SetAmount': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(17): message : see declaration of 'food::Dish::SetAmount'
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.cpp(9,44): warning C5043: 'food::Dish::Increase': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(20): message : see declaration of 'food::Dish::Increase'
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.cpp(15,44): warning C5043: 'food::Dish::Decrease': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(21): message : see declaration of 'food::Dish::Decrease'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.cpp(4,45): warning C5043: 'food::Dish::SetAmount': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(17): message : see declaration of 'food::Dish::SetAmount'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.cpp(9,44): warning C5043: 'food::Dish::Increase': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(20): message : see declaration of 'food::Dish::Increase'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.cpp(15,44): warning C5043: 'food::Dish::Decrease': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(21): message : see declaration of 'food::Dish::Decrease'
   guest.cpp
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(55,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(59,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(60,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(63,58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(68,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(69,129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(70,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(38,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(43,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(44,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(46,68): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(47,68): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(53,61): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(55,65): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(56,73): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.cpp(3,46): warning C5043: 'Guest::SetName': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(38): message : see declaration of 'Guest::SetName'
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.cpp(17,46): warning C5043: 'Guest::NewOrder': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(43): message : see declaration of 'Guest::NewOrder'
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.cpp(61,46): warning C5043: 'Guest::DelOrder': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(44): message : see declaration of 'Guest::DelOrder'
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.cpp(87,57): warning C5043: 'Guest::AddIngredientOnDish': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(46): message : see declaration of 'Guest::AddIngredientOnDish'
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.cpp(139,57): warning C5043: 'Guest::DelIngredientOnDish': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(47): message : see declaration of 'Guest::DelIngredientOnDish'
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.cpp(193,54): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.cpp(200,54): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.cpp(230,50): warning C5043: 'Guest::SubmitBasket': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(53): message : see declaration of 'Guest::SubmitBasket'
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.cpp(239,54): warning C5043: 'Guest::SaveHistory': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(55): message : see declaration of 'Guest::SaveHistory'
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.cpp(268,69): warning C5043: 'Guest::LoadHistory': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Guest.h(56): message : see declaration of 'Guest::LoadHistory'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(55,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(59,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(60,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(63,58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(68,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(69,129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(70,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(38,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(43,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(44,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(46,68): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(47,68): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(53,61): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(55,65): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(56,73): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.cpp(3,46): warning C5043: 'Guest::SetName': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(38): message : see declaration of 'Guest::SetName'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.cpp(17,46): warning C5043: 'Guest::NewOrder': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(43): message : see declaration of 'Guest::NewOrder'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.cpp(61,46): warning C5043: 'Guest::DelOrder': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(44): message : see declaration of 'Guest::DelOrder'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.cpp(87,57): warning C5043: 'Guest::AddIngredientOnDish': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(46): message : see declaration of 'Guest::AddIngredientOnDish'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.cpp(139,57): warning C5043: 'Guest::DelIngredientOnDish': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(47): message : see declaration of 'Guest::DelIngredientOnDish'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.cpp(193,54): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.cpp(200,54): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.cpp(230,50): warning C5043: 'Guest::SubmitBasket': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(53): message : see declaration of 'Guest::SubmitBasket'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.cpp(239,54): warning C5043: 'Guest::SaveHistory': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(55): message : see declaration of 'Guest::SaveHistory'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.cpp(268,69): warning C5043: 'Guest::LoadHistory': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Guest.h(56): message : see declaration of 'Guest::LoadHistory'
   interface.cpp
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.cpp(9,47): warning C5043: 'food::Interface::SetName': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(23): message : see declaration of 'food::Interface::SetName'
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.cpp(13,46): warning C5043: 'food::Interface::SetPrice': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(24): message : see declaration of 'food::Interface::SetPrice'
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.cpp(18,79): warning C5043: 'food::Interface::IncreaseIngredient': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(26): message : see declaration of 'food::Interface::IncreaseIngredient'
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.cpp(29,79): warning C5043: 'food::Interface::DecreaseIngredient': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(27): message : see declaration of 'food::Interface::DecreaseIngredient'
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.cpp(60,60): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.cpp(66,69): warning C5043: 'food::Interface::PrepareIngredients': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(39): message : see declaration of 'food::Interface::PrepareIngredients'
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.cpp(136,35): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.cpp(9,47): warning C5043: 'food::Interface::SetName': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(23): message : see declaration of 'food::Interface::SetName'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.cpp(13,46): warning C5043: 'food::Interface::SetPrice': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(24): message : see declaration of 'food::Interface::SetPrice'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.cpp(18,79): warning C5043: 'food::Interface::IncreaseIngredient': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(26): message : see declaration of 'food::Interface::IncreaseIngredient'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.cpp(29,79): warning C5043: 'food::Interface::DecreaseIngredient': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(27): message : see declaration of 'food::Interface::DecreaseIngredient'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.cpp(60,60): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.cpp(66,69): warning C5043: 'food::Interface::PrepareIngredients': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(39): message : see declaration of 'food::Interface::PrepareIngredients'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.cpp(136,35): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
   main.cpp
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(55,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(59,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(60,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(63,58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(68,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(69,129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.h(70,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.h(18,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.h(19,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.h(21,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.h(22,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.h(24,64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\admin.h(25,64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.h(38,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.h(43,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.h(44,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.h(46,68): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.h(47,68): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.h(53,61): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.h(55,65): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\guest.h(56,73): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(55,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(59,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(60,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(63,58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(68,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(69,129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.h(70,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.h(18,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.h(19,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.h(21,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.h(22,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.h(24,64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\admin.h(25,64): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.h(38,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.h(43,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.h(44,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.h(46,68): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.h(47,68): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.h(53,61): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.h(55,65): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\guest.h(56,73): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
   menu.cpp
   product.cpp
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.cpp(4,81): warning C5043: 'kitchen::Product::Product': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(11): message : see declaration of 'kitchen::Product::Product'
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.cpp(10,45): warning C5043: 'kitchen::Product::SetName': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(14): message : see declaration of 'kitchen::Product::SetName'
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.cpp(14,50): warning C5043: 'kitchen::Product::SetCalories': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(15): message : see declaration of 'kitchen::Product::SetCalories'
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.cpp(18,44): warning C5043: 'kitchen::Product::SetPrice': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(16): message : see declaration of 'kitchen::Product::SetPrice'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.cpp(4,81): warning C5043: 'kitchen::Product::Product': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(11): message : see declaration of 'kitchen::Product::Product'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.cpp(10,45): warning C5043: 'kitchen::Product::SetName': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(14): message : see declaration of 'kitchen::Product::SetName'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.cpp(14,50): warning C5043: 'kitchen::Product::SetCalories': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(15): message : see declaration of 'kitchen::Product::SetCalories'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.cpp(18,44): warning C5043: 'kitchen::Product::SetPrice': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(16): message : see declaration of 'kitchen::Product::SetPrice'
   provision.cpp
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.cpp(4,52): warning C5043: 'kitchen::Provision::SetQuantity': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(18): message : see declaration of 'kitchen::Provision::SetQuantity'
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.cpp(9,49): warning C5043: 'kitchen::Provision::Increase': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(21): message : see declaration of 'kitchen::Provision::Increase'
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.cpp(15,49): warning C5043: 'kitchen::Provision::Decrease': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(22): message : see declaration of 'kitchen::Provision::Decrease'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.cpp(4,52): warning C5043: 'kitchen::Provision::SetQuantity': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(18): message : see declaration of 'kitchen::Provision::SetQuantity'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.cpp(9,49): warning C5043: 'kitchen::Provision::Increase': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(21): message : see declaration of 'kitchen::Provision::Increase'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.cpp(15,49): warning C5043: 'kitchen::Provision::Decrease': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(22): message : see declaration of 'kitchen::Provision::Decrease'
   restaurant.cpp
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(55,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(59,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(60,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(63,58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(68,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(69,129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(70,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.cpp(21,47): warning C5043: 'Restaurant::SetName': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(55): message : see declaration of 'Restaurant::SetName'
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.cpp(26,51): warning C5043: 'Restaurant::IncreaseMoney': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(59): message : see declaration of 'Restaurant::IncreaseMoney'
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.cpp(32,51): warning C5043: 'Restaurant::DecreaseMoney': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(60): message : see declaration of 'Restaurant::DecreaseMoney'
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.cpp(72,53): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.cpp(102,45): warning C5043: 'Restaurant::AddDish': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(68): message : see declaration of 'Restaurant::AddDish'
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.cpp(142,129): warning C5043: 'Restaurant::AddDish': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(69): message : see declaration of 'Restaurant::AddDish'
-C:\Users\HP\Desktop\OOP-Exam\Exam\restaurant.cpp(165,45): warning C5043: 'Restaurant::DelDish': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\Restaurant.h(70): message : see declaration of 'Restaurant::DelDish'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(23,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(24,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(26,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(27,92): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\interface.h(39,84): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(14,7): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(17,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(20,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\dish.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(55,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(59,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(60,57): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(63,58): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(68,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(69,129): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(70,51): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.cpp(21,47): warning C5043: 'Restaurant::SetName': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(55): message : see declaration of 'Restaurant::SetName'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.cpp(26,51): warning C5043: 'Restaurant::IncreaseMoney': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(59): message : see declaration of 'Restaurant::IncreaseMoney'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.cpp(32,51): warning C5043: 'Restaurant::DecreaseMoney': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(60): message : see declaration of 'Restaurant::DecreaseMoney'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.cpp(72,53): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.cpp(102,45): warning C5043: 'Restaurant::AddDish': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(68): message : see declaration of 'Restaurant::AddDish'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.cpp(142,129): warning C5043: 'Restaurant::AddDish': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(69): message : see declaration of 'Restaurant::AddDish'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\restaurant.cpp(165,45): warning C5043: 'Restaurant::DelDish': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\Restaurant.h(70): message : see declaration of 'Restaurant::DelDish'
   stock.cpp
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.cpp(4,107): warning C5043: 'kitchen::Stock::AddProduct': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(24): message : see declaration of 'kitchen::Stock::AddProduct'
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.cpp(14,44): warning C5043: 'kitchen::Stock::DelProduct': exception specification does not match previous declaration
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.h(25): message : see declaration of 'kitchen::Stock::DelProduct'
-C:\Users\HP\Desktop\OOP-Exam\Exam\stock.cpp(99,59): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(11,10): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(14,54): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(15,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\product.h(16,53): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(16,12): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(18,59): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(21,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\provision.h(22,56): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(24,118): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(25,55): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.cpp(4,107): warning C5043: 'kitchen::Stock::AddProduct': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(24): message : see declaration of 'kitchen::Stock::AddProduct'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.cpp(14,44): warning C5043: 'kitchen::Stock::DelProduct': exception specification does not match previous declaration
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.h(25): message : see declaration of 'kitchen::Stock::DelProduct'
+C:\Users\HP\Desktop\New folder\OOP-Exam\Exam\stock.cpp(99,59): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
   table.cpp
   Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 1336 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 1338 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  Exam.vcxproj -> C:\Users\HP\Desktop\OOP-Exam\x64\Release\Exam.exe
+  Exam.vcxproj -> C:\Users\HP\Desktop\New folder\OOP-Exam\x64\Release\Exam.exe
